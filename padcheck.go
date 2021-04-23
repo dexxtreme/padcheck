@@ -6,7 +6,6 @@ package main
 import (
 	"bufio"
 	"crypto/sha1"
-	"crypto/tls"
 	"errors"
 	"flag"
 	"fmt"
@@ -16,6 +15,8 @@ import (
 	"strings"
 	"sync"
 	"time"
+
+	"github.rackspace.com/SSLTool/padcheck/tls"
 )
 
 var (
